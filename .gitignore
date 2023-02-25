@@ -52,7 +52,6 @@ typings/
 *.tgz
 
 # dotenv environment variables file
-.env
 
 # Mac files
 .DS_Store
@@ -71,3 +70,4 @@ api/dist
 dist
 .npmrc
 *.tsbuildinfo
+config.bat
