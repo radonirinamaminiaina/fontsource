@@ -21,7 +21,7 @@ For Angular 17+ projects, the recommended approach is to import fonts in your ma
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
 
-import '@fontsource-variable/open-sans/wght.css';
+import '@fontsource/open-sans';
 
 bootstrapApplication(AppComponent, {
   providers: [
@@ -37,7 +37,7 @@ You can also import fonts directly in individual components:
 ```ts
 import { Component } from '@angular/core';
 
-import '@fontsource-variable/open-sans/wght.css';
+import '@fontsource/open-sans';
 
 @Component({
   selector: 'app-root',
@@ -60,7 +60,7 @@ If you're using the traditional module-based Angular architecture (pre-Angular 1
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import '@fontsource-variable/open-sans/wght.css';
+import '@fontsource/open-sans';
 
 import { AppComponent } from './app.component';
 
